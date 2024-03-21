@@ -1,0 +1,70 @@
+main{
+    align-self: flex-end;
+    display: flex;
+    flex-direction: column;
+    row-gap: 12px;
+    align-items: flex-end;
+    margin-right: 40px;
+}
+
+main div{
+    display: flex;
+    column-gap: 12px;
+    align-items: center;
+    margin-right: 30px;
+}
+
+main div button{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    border: 1px solid #00000070;
+    background: transparent;
+
+    transition: opacity 0.4s;
+}
+
+main div button:hover{
+    cursor: pointer;
+    transform: translateY(-3px);
+}
+
+main div svg path{
+    fill: var(--text);
+}
+
+#member__name{
+    font-size: 100px;
+    letter-spacing: 6px;
+    font-weight: 400;
+
+    color: transparent;
+    font-family: 'Star Guard Italic';
+    padding-right: 20px;
+    text-shadow: -1px 5px 8px #000000;
+}
+
+#member__name.pernalonga{
+    background: var(--perna);
+    -webkit-background-clip: text;
+}
+#member__name.patolino{
+    background: var(--pato);
+    -webkit-background-clip: text;
+}
+#member__name.frajola{
+    background: var(--frajo);
+    -webkit-background-clip: text;
+}
+#member__name.coyote{
+    background: var(--coyo);
+    -webkit-background-clip: text;
+}
+#member__name.ligeirinho{
+    background: var(--lige);
+    -webkit-background-clip: text;
+}
+#member__name.taz{
+    background: var(--taz);
+    -webkit-background-clip: text;
+}

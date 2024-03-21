@@ -1,0 +1,45 @@
+@import url(./background.css);
+@import url(./header.css);
+@import url(./main.css);
+@import url(./font.css);
+@import url(./navigator.css);
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+}
+
+body{
+    overflow: hidden;
+}
+
+:root{
+    --text: #edf1f7;
+
+    --image-shadow: linear-gradient(109deg, rgba(10, 12, 16, 0.411) 15%, rgba(10, 12, 16, 0.459) 50%, rgba(10, 12, 16, 0.678) 85%);
+    --perna: linear-gradient(#381d04 35%, #e60bfa 25%, #5eff14);
+    --pato: linear-gradient(45deg, #a9e6ee 30%,  #e0b463 60%, #0b59eb 50%);
+    --lige: linear-gradient(#faf9a8 30%,#000 40%, #02cef1 90%);
+    --frajo: linear-gradient(45deg,#fff 20%, #ff00d4 30%, #eeff00 90%);
+    --coyo: linear-gradient(45deg,#550808,#cc8436, #1fd319 60%, #dd9d69 70%);
+    --taz: linear-gradient(45deg, #41120f 22%,#f70b0b 30%, #ebb608);
+}
+
+body{
+    color: var(--text);
+    font-family: 'Rubik', sans-serif;
+}
+
+.app{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    width: 100%;
+    height: 70vh;
+
+    padding: 10px 70px 80px;
+}
+
